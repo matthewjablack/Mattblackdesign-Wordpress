@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,100,300,700|Open+Sans:400,100,300,700);
+
+body{
+	background: url("img/bg-tile.jpg") repeat !important;
+	font-family:"Open Sans";
+}
+p{
+	font-size:15px;
+}
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+	font-family:"Comfortaa";
+}
+.light-gray {
+	background:#c8c8c8;
+}
+.white {
+	background:#fff;
+}
+.space-top{
+	padding-top:30px;
+}
+.space-bottom{
+	padding-bottom:30px;
+}
+.vertical-centered{
+	height:100%;
+	padding-top:20%;
+}
+.navbar-default {
+	background:#fff !important;
+}
+@media (min-width: 768px) {
+	.navbar {
+		min-height:75px ;
+		border-radius:0 ;
+		margin-bottom:0;
+	}
+	.navbar-brand {
+		padding-top:30px;
+		font-size:3.5em;
+		font-family:"Comfortaa";
+	}
+	.navbar-default .navbar-brand{
+		color:#000 !important;
+	}
+	.navbar-nav {
+	  margin: 0px -15px;
+	}
+	.navbar-nav > li > a {
+	  padding: 24px 5px;
+	  margin:0 15px;
+	  line-height: 1.4em;
+	  font-size:1.4em;
+	  font-family:"Open Sans";
+	}
+	.nav > li > a {
+		margin-top:9px;
+		margin-bottom:9px;
+		/*-webkit-transition:.5s;
+     -moz-transition:  .5s;
+      -ms-transition:  .5s;
+       -o-transition:  .5s;
+          transition:  .5s;*/
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+		margin-top:-1px !important;
+		margin-bottom:0px !important;
+		border-top:10px solid #2980b9;
+		border-bottom:12px solid #2980b9;
+		color:#2980b9 !important;
+	}
+	ul, menu, dir {
+		-webkit-margin-before: 0em;
+		-webkit-margin-after: 0em;
+	}
+	.current_page_item a{
+		margin-top:-1px !important;
+		margin-bottom:0px !important;
+		border-top:10px solid #e67e22;
+		border-bottom:12px solid #e67e22;
+		color:#e67e22 !important;
+	}
+}
+
+.jumbotron {
+	background-color: #fff;
+}
+.container .jumbotron {
+	border-radius:0;
+}
+
+
